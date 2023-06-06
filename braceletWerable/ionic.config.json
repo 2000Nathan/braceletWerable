@@ -1,0 +1,7 @@
+{
+  "name": "braceletWerable",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
