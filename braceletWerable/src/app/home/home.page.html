@@ -10,15 +10,69 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="custom-content" >
+  <div class="temperature-circle">
+    25°C <!-- Número de temperatura -->
   </div>
+  <br>
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-subtitle routerLink="/registro">Registro de actividad</ion-card-subtitle>
+    </ion-card-header>
+    <div> 
+      <ion-grid>
+        <ion-row class="">
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Lunes</ion-label>
+            </ion-tab-button>
+          </ion-col>
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Martes</ion-label>
+            </ion-tab-button>
+          </ion-col>
+  
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Miercoles</ion-label>
+            </ion-tab-button>
+          </ion-col>
+  
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Jueves</ion-label>
+            </ion-tab-button>
+          </ion-col>
+  
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Viernes</ion-label>
+            </ion-tab-button>
+          </ion-col>
+  
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Sabado</ion-label>
+            </ion-tab-button>
+          </ion-col>
+  
+          <ion-col class="text-center">
+            <ion-tab-button >
+              <ion-icon name="calendar"></ion-icon>
+              <ion-label>Domingo</ion-label>
+            </ion-tab-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <ion-card-content>  </ion-card-content>
+  </ion-card>
 </ion-content>
+
